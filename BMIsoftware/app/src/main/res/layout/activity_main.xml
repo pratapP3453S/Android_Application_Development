@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/window"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/feet"
+        android:textColorHint="@color/cardview_dark_background"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/inch"
+        android:inputType="number"
+        android:textColorHint="@color/cardview_dark_background"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/weight"
+        android:inputType="number"
+        android:textColorHint="@color/cardview_dark_background"
+        />
+    <Button
+        android:id="@+id/calculatebmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculatebmi"
+        android:backgroundTint="@color/lightgrey"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="23sp"
+        android:layout_marginTop="18dp"
+        />
+
+
+</LinearLayout>
