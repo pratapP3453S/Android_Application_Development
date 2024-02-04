@@ -46,10 +46,12 @@ Button b1,b2,b3;
     public void loadFrag(Fragment fragment, int flag){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        if (flag==0)
+        if (flag==0) {
             fragmentTransaction.add(R.id.container, fragment);
-        else
+        }
+        else {
             fragmentTransaction.replace(R.id.container, fragment);
+        }
         fragmentTransaction.commit();
     }
 }

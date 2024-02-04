@@ -52,7 +52,6 @@ BottomNavigationView bottomNavigationView;
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         if(flag){
-            fragmentTransaction.remove(fragment);
             fragmentTransaction.add(R.id.container, fragment);
         }
         fragmentTransaction.replace(R.id.container, fragment);

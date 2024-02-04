@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_contacts_24"
+        />
+    <item
+        android:title="History"
+        android:id="@+id/history"
+        android:icon="@drawable/baseline_access_time_24"
+        />
+    <item
+        android:title="Playlists"
+        android:id="@+id/playlists"
+        android:icon="@drawable/baseline_audiotrack_24"
+        />
+    <item
+        android:title="Products"
+        android:id="@+id/products"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        />
+    <item
+        android:title="Your Videos"
+        android:id="@+id/your_videos"
+        android:icon="@drawable/baseline_airplay_24"
+        />
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_add_home_24"
+        />
+    <item
+        android:title="Subscriptions"
+        android:id="@+id/subscriptions"
+        android:icon="@drawable/baseline_add_to_photos_24"
+        />
+    <item
+        android:title="Shorts"
+        android:id="@+id/shorts"
+        android:icon="@drawable/baseline_auto_mode_24"
+        />
+    <item
+        android:title="Log Out"
+        android:id="@+id/log_out"
+        android:icon="@drawable/baseline_call_missed_outgoing_24"
+        />
+</menu>
